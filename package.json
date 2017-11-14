@@ -1,0 +1,31 @@
+{
+  "name": "sms-server",
+  "version": "1.0.0",
+  "description": "1. Clone this Repo\r 2. `cd` to the cloned directory\r 3. run `npm install` (pre req: you will need node.js installed, preppend `sudo` if you need root priveleges).\r 4. open `config/config.js` and set your local mysql creds\r 5. run `NODE_ENV=development node server.js` to start the server on linux based systems. \r 5. for windows run `SET NODE_ENV=development node server.js`\r 6. :)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Loops Digital",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.4",
+    "es6-promise": "^3.1.2",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.1.6",
+    "lodash": "^4.17.4",
+    "moment": "^2.17.1",
+    "mongoose": "^4.5.7",
+    "morgan": "^1.7.0",
+    "multiparty": "^4.1.3",
+    "random-int": "^1.0.0",
+    "xlsx": "^0.9.13"
+  },
+  "devDependencies": {}
+}
